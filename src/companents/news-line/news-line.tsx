@@ -11,7 +11,7 @@ export const NewsLine: React.FC = () => {
     cacheTime: 70 * (60 * 1000),
   });
   const classes = styles();
-  console.log(data);
+
   return (
     <Card sx={classes.lineCard}>
       <p>
